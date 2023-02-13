@@ -1,0 +1,19 @@
+[asahi-linux]
+name=Asahi Mageia $releasever - $basearch
+baseurl=https://github.com/MageiaLinuxOnSiliconDevices/asahi-linux/$releasever/$basearch/
+enabled=1
+skip_if_unavailable=1
+repo_gpgcheck=0
+metadata_expire=2d
+gpgcheck=1
+gpgkey=https://github.com/MageiaLinuxOnSiliconDevices/asahi-linux/RPM-GPG-KEY-asahi
+
+[asahi-linux-source]
+name=Asahi Mageia $releasever - $basearch - Source
+baseurl=https://github.com/MageiaLinuxOnSiliconDevices/asahi-linux/$releasever/source/SRPMS/
+enabled=0
+skip_if_unavailable=1
+repo_gpgcheck=0
+metadata_expire=2d
+gpgcheck=1
+gpgkey=https://github.com/MageiaLinuxOnSiliconDevices/asahi-linux/RPM-GPG-KEY-asahi
